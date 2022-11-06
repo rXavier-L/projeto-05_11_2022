@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+*,
+*::after::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background: rgb(163, 57, 57);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  height: 595px;
+  position: relative;
+}
+
+.nav01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.h1_logo a {
+  text-decoration: none;
+  color: rebeccapurple;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.menu_header {
+  display: flex;
+  list-style: none;
+}
+
+.menu_header > .menu_header_01 {
+  margin-left: 2rem;
+}
+
+.menu_header_link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+.video {
+  z-index: -1;
+  height: auto;
+  width: 105%;
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  margin-left: 18px;
+}
+
+.titulo_Princial {
+  font-weight: 900;
+  color: rebeccapurple;
+  width: 100%;
+  font-size: 4rem;
+  top: 40%;
+  position: absolute;
+  text-align: center;
+}
+
+.bt_Princial {
+  text-decoration: none;
+  color: rgb(255, 60, 60);
+  padding: 1.5rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  transition: all 1s;
+}
+
+.bt_Princial:hover {
+  background: rgba(230, 0, 0, 0.586);
+  color: white;
+}
+
+.subTitulo_Princial {
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.848);
+  width: 100%;
+  font-size: 2rem;
+  top: 69%;
+  position: absolute;
+  text-align: center;
+}
+
+/*main*/
+
+main {
+  padding-left: 60px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main .video_01 {
+  margin: 5px;
+  width: 200px;
+  height: 150px;
+  border: 2px solid#000;
+}
+
+.main .video_01:hover {
+  filter: grayscale(1);
+}

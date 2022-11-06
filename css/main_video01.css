@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+*,*::after::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 62.5%;
+  background: rgb(163, 57, 57);
+  
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header { 
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  left: -18px;
+  margin-left: 18px;
+ 
+}
+
+.nav01 {
+  top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: black;
+}
+.h1_logo a {
+  text-decoration: none;
+  color: rebeccapurple;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.menu_header {
+  display: flex;
+  list-style: none;
+}
+
+.menu_header>.menu_header_01 {
+  margin-left: 2rem;
+
+}
+
+.menu_header_link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+.video_youtube {
+  margin-top: 100px;
+  margin: 5px 25%;
+  width: 800px;
+}
+.bt_voltar{
+  padding: 10px;
+  margin: 100px 700px 100px;
+}
+
+
